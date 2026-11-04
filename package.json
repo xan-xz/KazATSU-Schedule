@@ -1,0 +1,11 @@
+{
+  "name": "uniflow-schedule",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Editable student timetable with groups, subgroups and weekly recurrence",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --check public/app.js && node test.cjs"
+  },
+  "engines": { "node": ">=18" }
+}
